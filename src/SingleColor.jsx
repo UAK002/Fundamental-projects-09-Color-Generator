@@ -23,7 +23,7 @@ const SingleColor = ({ color, index }) => {
       onClick={saveToClipboard}
     >
       <p className="percent-value">{weight}%</p>
-      <p className="color-value">${hex}</p>
+      <p className="color-value">#{hex}</p>
     </article>
   );
 };
