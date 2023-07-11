@@ -1,6 +1,6 @@
 const SingleColor = ({ color, index }) => {
   const { hex, weight } = color;
-  console.log(color);
+  // console.log(color);
   return (
     <article
       className={index > 10 ? 'color color-light' : 'color'}
